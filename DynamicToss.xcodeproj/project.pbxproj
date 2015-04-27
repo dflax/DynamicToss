@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEE334C11AEEA83B005FF586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE334C01AEEA83B005FF586 /* AppDelegate.swift */; };
+		FEE334C31AEEA83B005FF586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE334C21AEEA83B005FF586 /* ViewController.swift */; };
+		FEE334C61AEEA83B005FF586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE334C41AEEA83B005FF586 /* Main.storyboard */; };
+		FEE334C81AEEA83B005FF586 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE334C71AEEA83B005FF586 /* Images.xcassets */; };
+		FEE334CB1AEEA83B005FF586 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE334C91AEEA83B005FF586 /* LaunchScreen.xib */; };
+		FEE334D71AEEA83B005FF586 /* DynamicTossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE334D61AEEA83B005FF586 /* DynamicTossTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEE334D11AEEA83B005FF586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE334B31AEEA83B005FF586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE334BA1AEEA83B005FF586;
+			remoteInfo = DynamicToss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEE334BB1AEEA83B005FF586 /* DynamicToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE334BF1AEEA83B005FF586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE334C01AEEA83B005FF586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEE334C21AEEA83B005FF586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEE334C51AEEA83B005FF586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEE334C71AEEA83B005FF586 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEE334CA1AEEA83B005FF586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FEE334D01AEEA83B005FF586 /* DynamicTossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE334D51AEEA83B005FF586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE334D61AEEA83B005FF586 /* DynamicTossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTossTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE334B81AEEA83B005FF586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE334CD1AEEA83B005FF586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE334B21AEEA83B005FF586 = {
+			isa = PBXGroup;
+			children = (
+				FEE334BD1AEEA83B005FF586 /* DynamicToss */,
+				FEE334D31AEEA83B005FF586 /* DynamicTossTests */,
+				FEE334BC1AEEA83B005FF586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE334BC1AEEA83B005FF586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE334BB1AEEA83B005FF586 /* DynamicToss.app */,
+				FEE334D01AEEA83B005FF586 /* DynamicTossTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE334BD1AEEA83B005FF586 /* DynamicToss */ = {
+			isa = PBXGroup;
+			children = (
+				FEE334C01AEEA83B005FF586 /* AppDelegate.swift */,
+				FEE334C21AEEA83B005FF586 /* ViewController.swift */,
+				FEE334C41AEEA83B005FF586 /* Main.storyboard */,
+				FEE334C71AEEA83B005FF586 /* Images.xcassets */,
+				FEE334C91AEEA83B005FF586 /* LaunchScreen.xib */,
+				FEE334BE1AEEA83B005FF586 /* Supporting Files */,
+			);
+			path = DynamicToss;
+			sourceTree = "<group>";
+		};
+		FEE334BE1AEEA83B005FF586 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE334BF1AEEA83B005FF586 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEE334D31AEEA83B005FF586 /* DynamicTossTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE334D61AEEA83B005FF586 /* DynamicTossTests.swift */,
+				FEE334D41AEEA83B005FF586 /* Supporting Files */,
+			);
+			path = DynamicTossTests;
+			sourceTree = "<group>";
+		};
+		FEE334D41AEEA83B005FF586 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE334D51AEEA83B005FF586 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE334BA1AEEA83B005FF586 /* DynamicToss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE334DA1AEEA83B005FF586 /* Build configuration list for PBXNativeTarget "DynamicToss" */;
+			buildPhases = (
+				FEE334B71AEEA83B005FF586 /* Sources */,
+				FEE334B81AEEA83B005FF586 /* Frameworks */,
+				FEE334B91AEEA83B005FF586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicToss;
+			productName = DynamicToss;
+			productReference = FEE334BB1AEEA83B005FF586 /* DynamicToss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEE334CF1AEEA83B005FF586 /* DynamicTossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE334DD1AEEA83B005FF586 /* Build configuration list for PBXNativeTarget "DynamicTossTests" */;
+			buildPhases = (
+				FEE334CC1AEEA83B005FF586 /* Sources */,
+				FEE334CD1AEEA83B005FF586 /* Frameworks */,
+				FEE334CE1AEEA83B005FF586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE334D21AEEA83B005FF586 /* PBXTargetDependency */,
+			);
+			name = DynamicTossTests;
+			productName = DynamicTossTests;
+			productReference = FEE334D01AEEA83B005FF586 /* DynamicTossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE334B31AEEA83B005FF586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Daniel Flax";
+				TargetAttributes = {
+					FEE334BA1AEEA83B005FF586 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FEE334CF1AEEA83B005FF586 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FEE334BA1AEEA83B005FF586;
+					};
+				};
+			};
+			buildConfigurationList = FEE334B61AEEA83B005FF586 /* Build configuration list for PBXProject "DynamicToss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEE334B21AEEA83B005FF586;
+			productRefGroup = FEE334BC1AEEA83B005FF586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE334BA1AEEA83B005FF586 /* DynamicToss */,
+				FEE334CF1AEEA83B005FF586 /* DynamicTossTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEE334B91AEEA83B005FF586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE334C61AEEA83B005FF586 /* Main.storyboard in Resources */,
+				FEE334CB1AEEA83B005FF586 /* LaunchScreen.xib in Resources */,
+				FEE334C81AEEA83B005FF586 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE334CE1AEEA83B005FF586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE334B71AEEA83B005FF586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE334C31AEEA83B005FF586 /* ViewController.swift in Sources */,
+				FEE334C11AEEA83B005FF586 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE334CC1AEEA83B005FF586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE334D71AEEA83B005FF586 /* DynamicTossTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEE334D21AEEA83B005FF586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE334BA1AEEA83B005FF586 /* DynamicToss */;
+			targetProxy = FEE334D11AEEA83B005FF586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEE334C41AEEA83B005FF586 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE334C51AEEA83B005FF586 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEE334C91AEEA83B005FF586 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE334CA1AEEA83B005FF586 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEE334D81AEEA83B005FF586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEE334D91AEEA83B005FF586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEE334DB1AEEA83B005FF586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEE334DC1AEEA83B005FF586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEE334DE1AEEA83B005FF586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicToss.app/DynamicToss";
+			};
+			name = Debug;
+		};
+		FEE334DF1AEEA83B005FF586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicToss.app/DynamicToss";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE334B61AEEA83B005FF586 /* Build configuration list for PBXProject "DynamicToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE334D81AEEA83B005FF586 /* Debug */,
+				FEE334D91AEEA83B005FF586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE334DA1AEEA83B005FF586 /* Build configuration list for PBXNativeTarget "DynamicToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE334DB1AEEA83B005FF586 /* Debug */,
+				FEE334DC1AEEA83B005FF586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEE334DD1AEEA83B005FF586 /* Build configuration list for PBXNativeTarget "DynamicTossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE334DE1AEEA83B005FF586 /* Debug */,
+				FEE334DF1AEEA83B005FF586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE334B31AEEA83B005FF586 /* Project object */;
+}

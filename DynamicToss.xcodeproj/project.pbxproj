@@ -411,6 +411,7 @@
 				FEE334DC1AEEA83B005FF586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEE334DD1AEEA83B005FF586 /* Build configuration list for PBXNativeTarget "DynamicTossTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				FEE334DF1AEEA83B005FF586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
